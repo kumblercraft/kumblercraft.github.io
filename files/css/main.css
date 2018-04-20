@@ -4,7 +4,7 @@ body { background: ; font-family: 'Lato', sans-serif; letter-spacing: 1px;}
 
 header {
     text-align: center;
-    height: 25em;
+    height: 5em;
     background: #2c3e50;
     color: #fff;
     margin: 0;
@@ -28,8 +28,8 @@ margin: 0;
 }
 
 .three ul {
-  padding: 1;
-  background: #2c3e50;
+  padding: 10;
+  background: #fff;
 }
 .three li {
   display: inline-block;
