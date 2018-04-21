@@ -41,7 +41,7 @@ header > div h1 {
 }
  
 header > div {
-    height: 100%;
+    height: 50%;
 }
  
 header > div::before {
@@ -50,7 +50,7 @@ header > div::before {
 }
  
 header > div h1 {
-    font-size: 3em;
+    font-size: 1em;
     font-style: italic;
 }
  
