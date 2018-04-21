@@ -6,6 +6,16 @@ a {
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
    } 
  
+header { /* up часть */
+  position: fixed; /* Фиксированное положение */
+    padding: 10px; /* Поля вокруг текста */
+    background: #2c3e50; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+
+
 header {
     text-align: center;
     height: 75px;
