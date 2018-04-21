@@ -25,8 +25,6 @@ header {
     border: 1px solid #000; /* Рамка вокруг текста */
     padding: 3px; /* Поля вокруг текста */
 }
- 
-@media screen and (max-width: 720px){
     
 
     
