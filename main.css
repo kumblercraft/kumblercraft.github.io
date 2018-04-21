@@ -1,15 +1,70 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
 * { padding: 0; margin: 0; }
-body { background: ; font-family: 'Lato', sans-serif; letter-spacing: 1px;}
-
+body { background: #1abc9c; font-family: 'Lato', sans-serif; text-transform: uppercase; letter-spacing: 1px;}
+ 
 header {
-    text-align: center;
-    height: 5em;
-    padding: 1em 5%;
+    text-align: justify;
+    height: 8em;
+    padding: 2em 5%;
     background: #2c3e50;
     color: #fff;
-    margin: 0;
 }
+ 
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+ 
+header > div,
+header > div::before,
+header nav,
+header > div h1 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+ 
+header > div {
+    height: 100%;
+}
+ 
+header > div::before {
+    content: '';
+    height: 100%;
+}
+ 
+header > div h1 {
+    font-size: 3em;
+    font-style: italic;
+}
+ 
+header nav a {
+    padding: 0 0.6em;
+    white-space: nowrap;
+}
+ 
+header nav a:last-child {
+    padding-right: 0;
+}
+ 
+@media screen and (max-width: 720px){
+     
+    header {
+        height: auto;
+    }
+     
+    header > div,
+    header > div h1,
+    header nav {
+        height: auto;
+        width: auto;
+        display: block;
+        text-align: center;
+    }
+     
+}
+
     
  footer { /* Нижняя часть */
   position: fixed; /* Фиксированное положение */
@@ -20,30 +75,7 @@ header {
     width: 100%; /* Ширина слоя */
 }
 
-   #content { /* Основное содержание страницы */
-  font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */ }
-    height: 675px;
-    background-image: url(.jpg); /* Путь к фоновому изображению */
-    background-color: #fff; /* Цвет фона */
-margin: 0;
-}
 
-.three ul {
-  padding: 1;
-  background: #2c3e50;
-}
-.three li {
-  display: inline-block;
-}
-.three a {
-  padding: 1em;
-  display: block;
-  color: #F7F7F7;
-  border-right: 1px solid #FF0;
-  background: rgba(255, 255, 0, .3);
-}
-.three a:hover {background: #BAD78B
-}
 
 
   body {
