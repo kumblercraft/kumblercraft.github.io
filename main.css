@@ -18,21 +18,7 @@ a {
 }
  
 @media screen and (max-width: 720px){
-     
-    header {
-        height: 1em;
-    }
-     
-    header > div,
-    header > div h1,
-    header nav {
-        height: 1em;
-        width: 1em;
-        display: block;
-        text-align: center;
-    }
-     
-}
+    
 
     
  footer { /* Нижняя часть */
