@@ -6,6 +6,15 @@ a {
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
    } 
  
+header {
+    text-align: center;
+    height: 5em;
+    padding: 1em 5%;
+    background: #2c3e50;
+    color: #fff;
+    margin: 0;
+}
+
    ul.hr {
     margin: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
