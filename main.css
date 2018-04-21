@@ -15,23 +15,6 @@ a {
     margin-right: 5px; /* Отступ слева */
     border: 1px solid #000; /* Рамка вокруг текста */
     padding: 3px; /* Поля вокруг текста */
-   }
-
-header {
-    text-align: justify;
-    height: 4em;
-    padding: 2em 5%;
-    background: #2c3e50;
-    color: #fff;
-}
-
-header nav a {
-    padding: 0 0.6em;
-    white-space: nowrap;
-}
- 
-header nav a:last-child {
-    padding-right: 0;
 }
  
 @media screen and (max-width: 720px){
