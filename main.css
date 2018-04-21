@@ -16,14 +16,7 @@ header { /* up часть */
 
 
 
-header {
-    text-align: center;
-    height: 75px;
-    padding: 1em;
-    background: #2c3e50;
-    color: #fff;
-    margin: 0;
-}
+
 
    ul.hr {
     margin: 0; /* Обнуляем значение отступов */
