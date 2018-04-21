@@ -66,14 +66,14 @@ header nav a:last-child {
 @media screen and (max-width: 720px){
      
     header {
-        height: 4em;
+        height: 1em;
     }
      
     header > div,
     header > div h1,
     header nav {
-        height: auto;
-        width: auto;
+        height: 1em;
+        width: 1em;
         display: block;
         text-align: center;
     }
