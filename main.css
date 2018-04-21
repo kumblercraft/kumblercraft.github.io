@@ -24,36 +24,7 @@ header {
     background: #2c3e50;
     color: #fff;
 }
- 
-header::after {
-    content: '';
-    display: inline-block;
-    width: 20%;
-}
- 
-header > div,
-header > div::before,
-header nav,
-header > div h1 {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: left;
-}
- 
-header > div {
-    height: 20%;
-}
- 
-header > div::before {
-    content: '';
-    height: 20%;
-}
- 
-header > div h1 {
-    font-size: 1em;
-    font-style: italic;
-}
- 
+
 header nav a {
     padding: 0 0.6em;
     white-space: nowrap;
