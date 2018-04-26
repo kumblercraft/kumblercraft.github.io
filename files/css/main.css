@@ -37,6 +37,7 @@ margin: 0;
   display: inline-block;
 }
 .three a {
+  opacity: 10; /* Полупрозрачность элемента */
   display: block;
   color: #F7F7F7;
   background: #fff;
