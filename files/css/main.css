@@ -40,6 +40,8 @@ margin: 0;
   display: block;
   color: #F7F7F7;
   background: ##ffff00;
+  width: 200px;
+  padding: 8px;
 }
 .three a:hover {background: #BAD78B
 }
