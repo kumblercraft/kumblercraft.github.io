@@ -37,11 +37,9 @@ margin: 0;
   display: inline-block;
 }
 .three a {
-  padding: 1em;
   display: block;
   color: #F7F7F7;
-  border-right: 1px solid #FF0;
-  background: rgba(255, 255, 0, .3);
+  background: #fff;
 }
 .three a:hover {background: #BAD78B
 }
