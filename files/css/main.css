@@ -32,15 +32,19 @@ margin: 0;
 .three ul {
   padding: 1;
   background: #2c3e50;
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
 .three li {
   display: inline-block;
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+
 }
 .three a {
   display: block;
   color: #F7F7F7;
   background: ##ffff00;
   padding: 1em;
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
 .three a:hover {background: #BAD78B
 }
