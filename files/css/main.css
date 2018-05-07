@@ -41,14 +41,13 @@ margin: 0;
 }
 .three a {
   display: block;
-  color: 
-  background: ##ffff00;
+  color: 2c3e50;
+  background: ##fff;
   padding: 1em;
   border-right: 1px #2c3e50;
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
-.three a:hover {background: #BAD78B
-}
+.three a:hover {background: #fff}
 
 
   body {
